@@ -51,13 +51,12 @@ article {
 
 footer {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 2rem;
 }
 
-/* footer div {
+footer div {
     flex: 1;
-} */
+}
 
 footer img {
     width: 5rem;
