@@ -19,7 +19,7 @@ h2 {
 
 header > img {
     display: block;
-    width: 50rem;
+    width: 40rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -31,7 +31,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    padding: 2rem;
+    margin: 2rem;
     font-size: 1rem;
 }
 
@@ -48,11 +48,41 @@ nav a:hover {
 
 section {
     display: flex;
+    gap: 1rem;
 }
 
 article {
     flex: 1;
     padding: 2rem;
+}
+
+article > h1 {
+    margin-bottom: 4rem;
+}
+
+.main_promotion {
+    background-image: url(../assets/imgs/bgMainPromotion1.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    color: #edefee;
+}
+
+.main_info {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: #4c5c54;
+}
+
+.main_info > h2 {
+    margin-bottom: 2rem;
+    transition: .2s ease-in-out;
+}
+
+.main_info > h2:hover {
+    color: #edefee;
+    cursor: pointer;
 }
 
 footer {
