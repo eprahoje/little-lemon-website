@@ -1,0 +1,64 @@
+body {
+    background-color: #edefee;
+    font-family: "Patua One", serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-family: "Bevan", serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Bevan", serif;
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4c5c54;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    padding: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* footer div {
+    flex: 1;
+} */
+
+footer img {
+    width: 5rem;
+}
