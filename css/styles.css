@@ -38,6 +38,12 @@ nav li {
 nav a {
     text-decoration: none;
     color: #4c5c54;
+    transition: .2s ease-in-out;
+}
+
+nav a:hover {
+    color: #f3cb14;
+
 }
 
 section {
