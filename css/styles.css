@@ -56,13 +56,16 @@ article {
 }
 
 footer {
+    border-top: 1px solid #4c5c54;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     padding: 2rem;
 }
 
-footer div {
+/* footer div {
     flex: 1;
-}
+} */
 
 footer img {
     width: 5rem;
