@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-family: "Bevan", serif;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h2 {
@@ -60,6 +60,11 @@ article > h1 {
     margin-bottom: 4rem;
 }
 
+
+section:first-child article p {
+    font-size: 1.5rem;
+}
+
 .main_promotion {
     background-image: url(../assets/imgs/bgMainPromotion1.png);
     background-size: cover;
@@ -76,13 +81,19 @@ article > h1 {
 }
 
 .main_info > h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     transition: .2s ease-in-out;
 }
 
 .main_info > h2:hover {
     color: #edefee;
     cursor: pointer;
+}
+
+.main_info img {
+    width: 100%;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
 }
 
 footer {
